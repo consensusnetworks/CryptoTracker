@@ -45,3 +45,15 @@ async function getUnixTimstamp() {
     console.log(parsedUnixTime)
 }
 getUnixTimstamp()
+
+var counts = [4, 9, 15, 6, 2],
+  goal = 5;
+
+aysnc function getNearestTimestamp() {
+    
+}
+var closest = counts.reduce(function(prev, curr) {
+  return (Math.abs(curr - goal) < Math.abs(prev - goal) ? curr : prev);
+});
+
+console.log(closest);
