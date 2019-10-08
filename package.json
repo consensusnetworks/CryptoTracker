@@ -1,15 +1,29 @@
 {
   "name": "crypto_plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the working repo for a google sheets plugin we are building that will allow us to get the specified price of one \r of the cryptoassets we manage at a selected point in time. It is being build using the coingecko API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape ./test/*"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "coingecko-api": "^1.0.5"
-  }
+  },
+  "devDependencies": {
+    "tape": "^4.11.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/consensusnetworks/CryptoTracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/consensusnetworks/CryptoTracker/issues"
+  },
+  "homepage": "https://github.com/consensusnetworks/CryptoTracker#readme"
 }
