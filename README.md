@@ -2,7 +2,7 @@
 
 This is the working repo for a Google Sheets plugin we are building. It will allow us to get the specified price of one of the cryptoassets we manage at a selected point in time.
 
-It is being build using the [CoinGecko API](https://www.coingecko.com/en/api).
+### Powered by [CoinGecko API](https://www.coingecko.com/en/api).
 
 TODO:
 
